@@ -4,7 +4,6 @@ let box1 = document.getElementById("box1");
 window.addEventListener("scroll", function(event) {
   let top = this.scrollY;
 
-  console.log(top);
   if(top > 450) {
     box1.classList.add("scale-animation");
   } else {
